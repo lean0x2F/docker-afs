@@ -71,7 +71,7 @@ Vagrant.configure(2) do |config|
 
   $script = <<SCRIPT
 sudo su
-apt-get install -y apt-transport-https ca-certificates vim tree
+apt-get install -y apt-transport-https ca-certificates vim tree curl
 
 # Install docker
 apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
